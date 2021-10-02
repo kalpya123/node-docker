@@ -58,7 +58,7 @@ app.use("/api/user",userRouter);
 const port = process.env.PORT || 3000;
 
 app.listen(port,()=>{
-    console.log("listing on "+port)
+    console.log("server listing on "+port)
 })
 
 //docker build -t node-app-image .
